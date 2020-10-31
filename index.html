@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1 - HTML</title>
+</head>
+<body>
+    <h1>Class 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium repellendus nobis commodi voluptatem distinctio! Ab libero nobis repellat suscipit dicta sint sequi recusandae vel mollitia eos tempora, fugiat et.</p>
+    <ul>
+        <li><a href="#paragraph">Paragraph + Image</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#quotes">Quotes</a></li>
+        <li><a href="#form">Form</a></li>
+    </ul>
+    <div id="paragraph">
+        <h2>Paragraph + Image</h2>
+        <p>Lorem ipsum <a href="https://google.com" target="_blank">dolor</a>, sit amet consectetur adipisicing elit. Incidunt atque ullam quidem doloribus laborum delectus fuga corrupti blanditiis ratione ipsam? Facere sit beatae voluptatum est totam inventore officiis eveniet culpa?</p>
+        <img src="//picsum.photos/200/300" alt="External Lorem Image">
+        <img src="images/my-image.jpg" alt="Internal Lorem Image">
+    </div>
+    <div id="lists">
+        <h2>Lists</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere perferendis magni, adipisci nemo aut, qui sunt nihil officia rerum autem sint earum dolore voluptatibus sequi corporis, odio vitae maiores voluptatum!</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+    </div>
+    <div id="quotes">
+        <h2>Quotes</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, perferendis accusantium delectus tenetur enim architecto temporibus molestiae maiores placeat pariatur, sint voluptatibus provident corporis nostrum similique voluptas minima quibusdam sequi?</p>
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio expedita deserunt velit, eligendi eos consequuntur explicabo earum facere fugiat veritatis veniam quos molestiae tempore repellendus, dolores corporis cum corrupti.</blockquote>
+    </div>
+    <div id="form">
+        <h2>Form</h2>
+        <p><strong>Lorem ipsum</strong> dolor, sit amet consectetur adipisicing elit. Officiis iure fugiat sed aliquam quae, nam vitae debitis alias rem earum error eveniet numquam atque ut praesentium accusantium quas obcaecati iste.</p>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+            <div>
+                <label for="continent">Continent</label>
+                <select name="continent" id="continent">
+                    <option value="Europa">Europa</option>
+                    <option value="America" selected="true">America</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Australia">Australia</option>
+                </select>
+            </div>
+            <div>
+                <label for="newsletter">Do you want to receive updates?</label>
+                <input type="radio" name="newsletter" value="yes"> Yes
+                <input type="radio" name="newsletter" value="no"> No
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="agreement">Do you agree with the <a href="#">terms</a></label>
+                <input type="checkbox" name="agreement" id="agreement" value="" required>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
